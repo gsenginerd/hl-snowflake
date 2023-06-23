@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RULE_ID",
+    "nullable": false,
+    "type": "number"
+  },
+  {
+    "name": "RULE_KEY",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "RULE_DESCRIPTION",
+    "nullable": false,
+    "type": "string"
+  },
+  {
+    "name": "RULE_TYPE_ID",
+    "nullable": false,
+    "type": "number"
+  },
+  {
+    "name": "PRECEDENCE",
+    "nullable": false,
+    "type": "number"
+  },
+  {
+    "name": "POTENTIAL_CONFLICT_TYPE_ID",
+    "nullable": false,
+    "type": "number"
+  },
+  {
+    "name": "CREATED_BY",
+    "nullable": false,
+    "type": "number"
+  },
+  {
+    "name": "CREATED_DATE",
+    "nullable": false,
+    "type": "datetime"
+  },
+  {
+    "name": "LAST_MODIFIED_BY",
+    "nullable": false,
+    "type": "number"
+  },
+  {
+    "name": "LAST_MODIFIED_DATE",
+    "nullable": false,
+    "type": "datetime"
+  },
+  {
+    "name": "RULE_METADATA",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "RULE_EXPRESSION",
+    "nullable": true,
+    "type": "string"
+  }
+]

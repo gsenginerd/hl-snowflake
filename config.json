@@ -1,0 +1,119 @@
+{
+  "snowflake": {
+    "connection": {
+      "database": "CONFLICT_CHECK",
+      "user": "g.subramaniam@hl.com",
+      "password": "***********",
+      "account": "bb13604.west-us-2.azure",
+      "schema": "DBO",
+      "role": "DNA_DEVELOPER",
+      "warehouse": "DNA_XSM"
+    }
+  },
+  "data_import": {
+    "csv_params": {
+      "stage_name": "CSV_IMPORT_STAGE",
+      "file_format_name": "CSV_FILE_FORMAT",
+      "cc_request": {
+        "csv_file_name": "DEV_cc_request.csv",
+        "schema_json_name": "schema_cc_request.json",
+        "table_name": "CONFLICT_CHECK_REQUEST",
+        "delete_params": {
+          "flag": true,
+          "sql_text": "",
+          "filter_query": {
+            "filter_column": "CONFLICT_CHECK_REQUEST_ID",
+            "filter_value": "75388"
+          }
+        },
+        "select_params": {
+          "sql_text": "",
+          "filter_query": {
+            "filter_column": "CONFLICT_CHECK_REQUEST_ID",
+            "filter_value": "75388"
+          }
+        }
+      },
+      "dm_rule": {
+        "csv_file_name": "DEV_dm_rule.csv",
+        "schema_json_name": "schema_dm_rule.json",
+        "table_name": "DECISION_MATRIX_RULE",
+        "delete_params": {
+          "flag": true,
+          "sql_text": "TRUNCATE TABLE DBO.DECISION_MATRIX_RULE",
+          "filter_query": {
+            "filter_column": "",
+            "filter_value": ""
+          }
+        },
+        "select_params": {
+          "sql_text": "",
+          "filter_query": {
+            "filter_column": "",
+            "filter_value": ""
+          }
+        }
+      },
+      "search_hits": {
+        "csv_file_name": "DEV_search_hits.csv",
+        "schema_json_name": "schema_cc_search_candidate_hit.json",
+        "table_name": "STAGE_SEARCH_CANDIDATE_HIT",
+        "delete_params": {
+          "flag": true,
+          "sql_text": "DELETE FROM STAGE_SEARCH_CANDIDATE_HIT WHERE CONFLICT_CHECK_REQUEST_ID = 81070",
+          "filter_query": {
+            "filter_column": "",
+            "filter_value": ""
+          }
+        },
+        "select_params": {
+          "sql_text": "",
+          "filter_query": {
+            "filter_column": "",
+            "filter_value": ""
+          }
+        }
+      }
+    },
+    "matched_search_candidate": {
+      "csv_file_name": "DEV_matched_candidates.csv",
+      "schema_json_name": "schema_cc_matched_search_candidate.json",
+      "table_name": "MATCHED_SEARCH_CANDIDATE",
+      "delete_params": {
+        "flag": true,
+        "sql_text": "DELETE FROM DBO.MATCHED_SEARCH_CANDIDATE WHERE REQUEST_RELATED_ENTITY_ID IN (SELECT REQUEST_RELATED_ENTITY_ID FROM DBO.REQUEST_RELATED_ENTITY WHERE CONFLICT_CHECK_REQUEST_ID = 81191)",
+        "filter_query": {
+          "filter_column": "",
+          "filter_value": ""
+        }
+      },
+      "select_params": {
+        "sql_text": "SELECT * FROM DBO.MATCHED_SEARCH_CANDIDATE WHERE REQUEST_RELATED_ENTITY_ID IN (SELECT REQUEST_RELATED_ENTITY_ID FROM DBO.REQUEST_RELATED_ENTITY WHERE CONFLICT_CHECK_REQUEST_ID = 81191)",
+        "filter_query": {
+          "filter_column": "",
+          "filter_value": ""
+        }
+      }
+    },
+    "request_related_entity": {
+      "csv_file_name": "DEV_request_related_entities.csv",
+      "schema_json_name": "schema_cc_request_related_entity.json",
+      "table_name": "REQUEST_RELATED_ENTITY",
+      "delete_params": {
+        "flag": true,
+        "sql_text": "",
+        "filter_query": {
+          "filter_column": "CONFLICT_CHECK_REQUEST_ID",
+          "filter_value": "81191"
+        }
+      },
+      "select_params": {
+        "sql_text": "",
+        "filter_query": {
+          "filter_column": "CONFLICT_CHECK_REQUEST_ID",
+          "filter_value": "81191"
+        }
+      }
+    }
+  }
+}

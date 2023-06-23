@@ -1,0 +1,30 @@
+{
+  "___comment_python.formatting.blackArgs___": "DO NOT DELETE: python.formatting.blackArgs",
+  "python.formatting.blackArgs": ["--line-length", "200"],
+  "python.formatting.provider": "black",
+  "python.analysis.extraPaths": ["./config", "./core", "./snowflake"],
+  "code-runner.executorMap": {
+    "python": "$pythonPath $fullFileName"
+  },
+  "cSpell.words": ["dotenv", "rtype", "snowpark", "tablefmt"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#00527c",
+    "activityBar.background": "#00527c",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#200015",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#00527c",
+    "statusBar.background": "#003049",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#00527c",
+    "statusBarItem.remoteBackground": "#003049",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#003049",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#00304999",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#003049"
+}

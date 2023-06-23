@@ -1,0 +1,11 @@
+[flake8]
+ignore = 
+    # E402 - module level import not at top of file
+    E402,
+    # E501 - line too long
+    E501
+    # W503 - line break before binary operator
+    W503
+#per-file-ignores =
+    # line too long
+    # path/to/file.py: E501,

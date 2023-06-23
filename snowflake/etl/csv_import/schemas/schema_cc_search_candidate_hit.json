@@ -1,0 +1,217 @@
+[
+  { "name": "SEARCH_CANDIDATE_HIT_ID", "type": "number", "nullable": false },
+  { "name": "MATCHED_SEARCH_CANDIDATE_ID", "type": "number", "nullable": true },
+  { "name": "CONFLICT_CHECK_REQUEST_ID", "type": "number", "nullable": true },
+  {
+    "name": "SEARCH_CANDIDATE_HIT_TYPE_ID",
+    "type": "number",
+    "nullable": true
+  },
+  { "name": "SOURCE_SYSTEM_ID", "type": "number", "nullable": true },
+  { "name": "CONFLICT_TYPE_ID", "type": "number", "nullable": true },
+  { "name": "LOB_NAME", "type": "string", "nullable": true },
+  { "name": "LOB_SOURCE_SYSTEM_KEY", "type": "string", "nullable": true },
+  { "name": "PRIMARY_MANAGER_NAME", "type": "string", "nullable": true },
+  { "name": "SLX_JOB_TYPE_NAME", "type": "string", "nullable": true },
+  {
+    "name": "SOURCE_SYSTEM_BUSINESS_ENTITY_ID",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "OPPORTUNITY_TYPE", "type": "string", "nullable": true },
+  { "name": "OPPORTUNITY_STATUS", "type": "string", "nullable": true },
+  { "name": "SLX_OPPORTUNITY_CLIENT_NAME", "type": "string", "nullable": true },
+  {
+    "name": "SLX_OPPORTUNITY_INDIVIDUAL_ROLE",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "PROJECT_NAME", "type": "string", "nullable": true },
+  { "name": "SLX_PID_CASE_NBR", "type": "string", "nullable": true },
+  { "name": "SLX_PRIMARY_OFFICE", "type": "string", "nullable": true },
+  { "name": "SLX_PRIORITY", "type": "string", "nullable": true },
+  { "name": "SLX_ENGAGEMENT_START_DATE", "type": "date", "nullable": true },
+  {
+    "name": "SLX_ENGAGEMENT_CONCLUSION_DATE",
+    "type": "datetime",
+    "nullable": true
+  },
+  { "name": "SLX_DISCLOSURE_STATUS", "type": "string", "nullable": true },
+  {
+    "name": "SLX_CONFIDENTIALITY_AGREEMENT_INDICATOR",
+    "type": "boolean",
+    "nullable": true
+  },
+  { "name": "SLX_BANKRUPTCY_INDICATOR", "type": "boolean", "nullable": true },
+  { "name": "SLX_PRIMARY_PRINCIPAL_NAME", "type": "string", "nullable": true },
+  {
+    "name": "SLX_PROSPECT_INITIATOR_NAMES",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "SLX_BOARD_MEMBER_NAME", "type": "string", "nullable": true },
+  {
+    "name": "SLX_BOARD_MEMBER_TERM_START_DATE",
+    "type": "datetime",
+    "nullable": true
+  },
+  {
+    "name": "SLX_BOARD_MEMBER_TERM_END_DATE",
+    "type": "datetime",
+    "nullable": true
+  },
+  {
+    "name": "SLX_BOARD_MEMBER_DIRECTOR_TYPE_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "SLX_BOARD_MEMBER_TITLE", "type": "string", "nullable": true },
+  {
+    "name": "SLX_BOARD_MEMBER_COMMITTEE_NAMES",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "SLX_BOARD_MEMBER_COMPANY_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "ORX_ASSET_TYPE_NAME", "type": "string", "nullable": true },
+  {
+    "name": "ORX_ASSET_OUTSTANDING_EXPOSURE_AMT",
+    "type": "number",
+    "nullable": true
+  },
+  { "name": "ORX_BORROWER_OR_ISSUER_NAME", "type": "string", "nullable": true },
+  { "name": "ORX_SENIORITY", "type": "string", "nullable": true },
+  { "name": "ORX_START_DATE", "type": "datetime", "nullable": true },
+  { "name": "ORX_END_DATE", "type": "datetime", "nullable": true },
+  {
+    "name": "ORX_ORIGINAL_BORROWER_ISSUER_GLOBAL_AMOUNT",
+    "type": "number",
+    "nullable": true
+  },
+  { "name": "ORX_ORIX_APPROVAL_AMOUNT", "type": "number", "nullable": true },
+  { "name": "ORX_CURRENT_ORIX_COMMITMENT", "type": "number", "nullable": true },
+  {
+    "name": "ORX_CURRENT_ORIX_FUNDED_AMOUNT_OUTSTANDING",
+    "type": "number",
+    "nullable": true
+  },
+  {
+    "name": "ORX_NUMBER_OF_SECURITIES_CURRENTLY_HELD_BY_ORIX",
+    "type": "number",
+    "nullable": true
+  },
+  { "name": "ORX_DESCRIPTION", "type": "string", "nullable": true },
+  { "name": "ORX_PROSPECT_STATUS", "type": "string", "nullable": true },
+  { "name": "ORX_ASSET_EQUITY_TYPE", "type": "string", "nullable": true },
+  { "name": "HL_LEGAL_ENTITY_NAME", "type": "string", "nullable": true },
+  {
+    "name": "HL_LEGAL_ENTITY_MATCHED_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "HL_LEGAL_ENTITY_POSITION", "type": "string", "nullable": true },
+  { "name": "SLX_ALL_CLIENTS", "type": "string", "nullable": true },
+  { "name": "SLX_ALL_SUBJECTS", "type": "string", "nullable": true },
+  { "name": "SLX_SECCODE", "type": "string", "nullable": true },
+  { "name": "SLX_SECCODE_DESC", "type": "string", "nullable": true },
+  { "name": "SLX_JOB_CODE", "type": "string", "nullable": true },
+  { "name": "SHOW_ON_REPORT", "type": "boolean", "nullable": true },
+  { "name": "PRIVATE_INVESTMENT_FUND_ID", "type": "number", "nullable": true },
+  {
+    "name": "PRIVATE_INVESTMENT_SECURITY_ID",
+    "type": "number",
+    "nullable": true
+  },
+  {
+    "name": "PRIVATE_INVESTMENT_STAFF_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "INVESTMENT_DATE", "type": "datetime", "nullable": true },
+  { "name": "EXIT_DATE", "type": "datetime", "nullable": true },
+  { "name": "FUND_FUND_NAME", "type": "string", "nullable": true },
+  { "name": "FUND_FIRM_NAME", "type": "string", "nullable": true },
+  { "name": "FUND_ULTIMATE_FUND_NAME", "type": "string", "nullable": true },
+  { "name": "FUND_ULTIMATE_FIRM_NAME", "type": "string", "nullable": true },
+  { "name": "SECURITY_ISSUER_NAME", "type": "string", "nullable": true },
+  {
+    "name": "PRIVATE_INVESTMENT_MATCHED_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "PRIVATE_INVESTMENT_POSITION", "type": "string", "nullable": true },
+  { "name": "PRIVATE_INVESTMENT_NOTES", "type": "string", "nullable": true },
+  {
+    "name": "PRIVATE_INVESTMENT_ADMIN_NOTES",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "HIT_RULE", "type": "string", "nullable": true },
+  { "name": "HAS_ADVERSE_CLIENT", "type": "string", "nullable": true },
+  { "name": "PROSPECT_REVENUE", "type": "number", "nullable": true },
+  { "name": "CCCLIENTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "CCSLXSUBJECTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "CCSUBJECTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "SCHCLIENTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "SCHSUBJECTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "INTPARTYCLIENTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "INTPARTYSUBJECTNAMESLIST", "type": "string", "nullable": true },
+  { "name": "CLIENTOVERLAP", "type": "number", "nullable": true },
+  { "name": "CLIENTSUBJECTOVERLAP", "type": "number", "nullable": true },
+  { "name": "SUBJECTCLIENTOVERLAP", "type": "number", "nullable": true },
+  { "name": "SUBJECTOVERLAP", "type": "number", "nullable": true },
+  { "name": "INTPARTYCLIENTOVERLAP", "type": "number", "nullable": true },
+  {
+    "name": "INTPARTYCLIENTSUBJECTOVERLAP",
+    "type": "number",
+    "nullable": true
+  },
+  {
+    "name": "INTPARTYSUBJECTCLIENTOVERLAP",
+    "type": "number",
+    "nullable": true
+  },
+  { "name": "INTPARTYSUBJECTOVERLAP", "type": "number", "nullable": true },
+  { "name": "FSCG_ACCOUNT_ID", "type": "number", "nullable": true },
+  {
+    "name": "REQUEST_SF_CLIENT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "REQUEST_ALL_SUBJECT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "REQUEST_SF_SUBJECT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "REQUEST_IP_CLIENT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "REQUEST_IP_SUBJECT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "HIT_CLIENT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  {
+    "name": "HIT_SUBJECT_CURRENT_NAMES_LIST",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "REQUEST_RELATED_ENTITY_ID", "type": "number", "nullable": true },
+  { "name": "LEGACY_SYSTEM_ID", "type": "string", "nullable": true },
+  { "name": "IS_MISSING_HIT", "type": "boolean", "nullable": true }
+]

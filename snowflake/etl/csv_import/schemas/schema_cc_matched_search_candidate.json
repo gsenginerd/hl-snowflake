@@ -1,0 +1,54 @@
+[
+  {
+    "name": "MATCHED_SEARCH_CANDIDATE_ID",
+    "type": "number",
+    "nullable": false
+  },
+  { "name": "REQUEST_RELATED_ENTITY_ID", "type": "number", "nullable": true },
+  { "name": "RELATED_TARGET_CANDIDATE_ID", "type": "number", "nullable": true },
+  {
+    "name": "MATCH_CANDIDATE_COMPANY_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "MATCH_CANDIDATE_CITY_NAME", "type": "string", "nullable": true },
+  {
+    "name": "MATCH_CANDIDATE_INDIVIDUAL_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "MATCH_CANDIDATE_DUNS_ID", "type": "string", "nullable": true },
+  { "name": "RELATION_TO_TARGET_TYPE_ID", "type": "number", "nullable": true },
+  { "name": "MATCH_TYPE_ID", "type": "number", "nullable": true },
+  {
+    "name": "SOURCE_SYSTEM_BUSINESS_ENTITY_ID",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "SOURCE_SYSTEM_ID", "type": "number", "nullable": true },
+  {
+    "name": "MATCH_CANDIDATE_INCLUDE_INDICATOR",
+    "type": "boolean",
+    "nullable": true
+  },
+  { "name": "STRIPPED_COMPANY_NAME", "type": "string", "nullable": true },
+  { "name": "FROM_SAVED_SEARCH", "type": "boolean", "nullable": true },
+  { "name": "FROM_DUNS", "type": "boolean", "nullable": true },
+  { "name": "FSCG_ACCOUNT_ID", "type": "number", "nullable": true },
+  { "name": "MATCH_SOURCE", "type": "string", "nullable": true },
+  { "name": "CHANGE_EFFECTIVE_DATE", "type": "datetime", "nullable": true },
+  { "name": "FROM_ACCOUNT_ID", "type": "string", "nullable": true },
+  { "name": "FROM_ACCOUNT_NAME", "type": "string", "nullable": true },
+  { "name": "FROM_ACCOUNT_STRIPPED_NAME", "type": "string", "nullable": true },
+  { "name": "TO_ACCOUNT_ID", "type": "string", "nullable": true },
+  { "name": "TO_ACCOUNT_NAME", "type": "string", "nullable": true },
+  { "name": "TO_ACCOUNT_STRIPPED_NAME", "type": "string", "nullable": true },
+  { "name": "CURRENT_ACCOUNT_ID", "type": "string", "nullable": true },
+  { "name": "CURRENT_ACCOUNT_NAME", "type": "string", "nullable": true },
+  {
+    "name": "CURRENT_ACCOUNT_STRIPPED_NAME",
+    "type": "string",
+    "nullable": true
+  },
+  { "name": "EXCLUDE_NEW_SF_COMPANY", "type": "boolean", "nullable": false }
+]
